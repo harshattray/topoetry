@@ -2,7 +2,7 @@
  * @Author: harsha
  * @Date:   2018-10-06T20:35:49+05:30
  * @Last modified by:   harsha
- * @Last modified time: 2018-10-13T10:56:16+05:30
+ * @Last modified time: 2018-10-13T10:58:18+05:30
  */
 
 
@@ -162,9 +162,12 @@ body {
 .img1 {
   position: absolute;
   top: -40%;
-  left: 40%;
+  left: 0%;
   width: 100%;
   height: 100%;
+  display: flex;
+justify-content: center;
+align-items: center;
 }
 @keyframes beat {
   from {
